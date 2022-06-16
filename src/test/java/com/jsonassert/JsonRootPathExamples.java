@@ -48,7 +48,7 @@ public class JsonRootPathExamples {
             get("competitions/PL/standings/").
         then().
             rootPath("standings.table.team[0]").
-            body("shortName",hasItem("Man City"),
+            body("standings.table.team[0].shortName",hasItem("Man City"),
                     "name",hasItem("Manchester City FC"),
                     "name",hasItem("Manchester City FC")).
 

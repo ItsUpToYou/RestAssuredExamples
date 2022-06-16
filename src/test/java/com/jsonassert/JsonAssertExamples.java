@@ -20,7 +20,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.lessThan;
 
 
-public class JsonAssertExamples {гит
+public class JsonAssertExamples {
 
     static String jsonResponse;
 
