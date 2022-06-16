@@ -9,8 +9,8 @@ import static io.restassured.RestAssured.*;
 public class BaseSetupPayPal {
 
     public static String accessToken;
-    public static final String clientId = "add your client id";
-    public static final String clientSecret = "add your secret key";
+    public static final String clientId = "add your client id .";
+    public static final String clientSecret = "add your secret key .";
 
     @BeforeAll
     public static void init()
